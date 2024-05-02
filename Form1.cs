@@ -15,7 +15,6 @@ namespace PressureConverter
             double psi = Math.Round(kiloPascals * 0.145d, 1);
             textBoxBar.Text = Convert.ToString(bars);
             textBoxPsi.Text = Convert.ToString(psi);
-
         }
 
         private void textBoxKPa_Leave(object sender, EventArgs e)
@@ -33,7 +32,6 @@ namespace PressureConverter
                 // Change button state to enabled
                 buttonCalculate.Enabled = false;
             }
-
             else
             {
                 // Change button state to enabled
